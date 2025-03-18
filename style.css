@@ -34,6 +34,7 @@ button {
     margin-top: 20px;
 }
 .button-follow button {
+    display: block;
     color: rgb(23, 166, 223);
     border: 2px solid rgb(23, 166, 223);
     padding: 10px 20px;
@@ -43,3 +44,6 @@ button {
     font-size: 20px;
     font-weight: bold;
 }
+.followtext {
+    display: block;
+}   
