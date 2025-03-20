@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        p:first-child {
+            background-color: red;
+        }
+        p:last-child {
+            background-color: blue;
+        }
+        p:nth-child(2n) {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p>Body içindeki p</p>
+    <div>
+        <p>Child1</p>
+        <p>Child2</p>
+        <p>Child3</p>
+    </div>
+    <p>Div altındaki p</p>
+    <script src="script.js"></script>
+</body>
+</html>

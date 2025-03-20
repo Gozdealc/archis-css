@@ -46,4 +46,36 @@ button {
 }
 .followtext {
     display: block;
-}   
+}  
+
+.container p {
+    background-color: yellow;
+}
+.container > p {
+    background-color: red;
+}
+.container + p {
+    background-color: blue;
+}
+div ~ p {
+    background-color: green;
+}
+
+a[target] {
+    color: pink;
+    text-decoration: underline;
+}
+a[target="_top"] {
+    color: yellow;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 30px;
+}
+.container p:active {
+    background-color: gray;
+}
+.input:focus {
+    outline: none;
+    border: 2px solid blue;
+}
